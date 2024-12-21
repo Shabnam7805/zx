@@ -1,0 +1,27 @@
+#hover:hover{
+    border-radius: 5px;
+    background-color: white;
+    color: black !important;
+    transition: .7s;
+}
+:root {
+    --steps: 17; 
+    --background: #1d1f20;
+  }
+  .typing {
+    
+    font-family: 'Inconsolata', Consolas, monospace;
+      font-size: 23px;
+      color: #d7b94c;
+    position: relative;
+      &::after {
+      content: "|";
+      position: absolute;
+      right: 0;
+      width: 100%;
+      color: white;
+      background: var(--background);
+      animation: typing 4s steps(var(--steps)) forwards,
+        caret 1s infinite;
+    }
+  }

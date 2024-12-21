@@ -1,0 +1,140 @@
+#hover:hover{
+    border-radius: 5px;
+    background-color: white;
+    color: black !important;
+    transition: .7s;
+}
+:root {
+    --steps: 17; 
+    --background: #1d1f20;
+  }
+  .typing {
+    
+    font-family: 'Inconsolata', Consolas, monospace;
+      font-size: 23px;
+      color: #d7b94c;
+    position: relative;
+      &::after {
+      content: "|";
+      position: absolute;
+      right: 0;
+      width: 100%;
+      color: white;
+      background: var(--background);
+      animation: typing 4s steps(var(--steps)) forwards,
+        caret 1s infinite;
+    }
+  }
+  .row2{
+    height: 90vh;
+   width: 100%;
+   background-image: url('./rachel-park-hrlvr2ZlUNk-unsplash.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   --bs-gutter-x:0px !important;
+   display: flex;
+justify-content: center;
+align-items: center;
+
+  }
+  .img{
+    height:99% ;
+    width:105% ;
+  }
+  .col11
+{
+background: rgba(46, 46, 46, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(67, 66, 66, 0.3);
+height: 60%;
+
+
+  }
+  .azs:hover{
+color: orange;
+  }
+  .ram{
+    text-align: center;
+    height: 60%;
+  
+  }
+  .uy{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    color: white;
+    font-weight: 700;
+    
+  }
+  .as{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+  
+  }
+  
+  .zx{
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+
+  }
+  .aa{
+    padding :5px 25px;
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 5px;
+  
+  }
+  .aa:hover{
+    
+    background-color: white;
+    color: orange;
+  
+  } 
+  .bb{
+    padding :5px 25px;
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }
+  .bb:hover{
+    
+    background-color: white;
+    color: orange;
+  }
+  .wer{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  @keyframes typing {
+      to { width: 0 }
+  }
+  @keyframes caret {
+      50% { color: transparent }
+  }
+
+  @media screen and (max-width:769px){
+    .typing{
+      
+    
+
+          
+      }
+      .as{
+        font-size: 22px;
+      
+      }
+      .col11
+      {
+      height: 55%;
+      }
+          
+  }
+
+  
